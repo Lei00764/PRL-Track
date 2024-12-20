@@ -20,13 +20,7 @@ parser.add_argument(
     help="dataset root directory",
 )
 parser.add_argument("--dataset", default="UAV123", type=str, help="dataset name")
-parser.add_argument(
-    "--tracker_result_dir",
-    default="./results",
-    type=str,
-    help="tracker result root",
-)
-parser.add_argument("--tracker_path", default="./results", type=str)
+parser.add_argument("--tracker_path", default="./results", type=str, help="tracker result root")
 parser.add_argument("--vis", default="", dest="vis", action="store_true")
 parser.add_argument(
     "--show_video_level", default=True, dest="show_video_level", action="store_true"
