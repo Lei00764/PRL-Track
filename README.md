@@ -65,6 +65,20 @@ python tools/eval.py
 ## Qualitative Evaluation
 ![qualitative evaluation](./assets/qualitative_evaluation.png)
 
+## Citation
+
+If our work motivates/helps your work, please cite us as:
+
+```bash
+@inproceedings{Lei2024IROS,
+  author={Fu, Changhong and Lei, Xiang and Zuo, Haobo and Yao, Liangliang and Zheng, Guangze and Pan, Jia},
+  booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Progressive Representation Learning for Real-Time UAV Tracking}, 
+  year={2024},
+  pages={5072-5079}
+}
+```
+
 ## 🥰 Acknowledgments
 The code is implemented based on [pysot](https://github.com/STVIR/pysot) and [HiFT](https://github.com/vision4robotics/HiFT). We would like to express our sincere thanks to the contributors.
 
